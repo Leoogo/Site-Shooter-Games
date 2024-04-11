@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #393939;
+}
+
+header {
+    padding: 20px;
+    background-color: #666666;
+    color: #ffbd07;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 36px;
+    color: #ffbd07;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header nav li a {
+    color: #ffbd07;    
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+    font-size: 22px;
+}
+
+section h2, h3 {
+    color: #ffbd07;   
+    margin-bottom: 46px;
+    text-align: center;    
+    font-family: "Bebas Neue", sans-serif;
+}
+
+section h2 {
+    text-decoration: underline;
+}
+
+section {
+    padding: 30px 0px
+}
+
+section {
+    color: #666666;
+}
+
+section p {
+    margin-bottom: 46px;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 23px;
+}
+
+.militar-img {
+    margin-right: 36px;    
+}
+
+.game-brand-list img {
+    height: 100px;
+}
+.game-brand-list li {
+    display: inline;
+    align-items: center;
+    margin-left: 90px;
+    
+}
+
+.social-link img {
+    height: 54px;
+}
+
+.social-link li {
+    display: inline;
+    margin-right: 16px;
+}
+.social-link li a{
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-us h3  {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 350px;
+    margin-bottom: 8px;
+    padding: 12px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #666666;
+    color: #ffbd07;
+    border: none;    
+    cursor: pointer;   
+    margin-bottom: 42px; 
+}
+
+form button:hover {
+    background-color: #ffff;
+}
+
+input:focus, textarea:focus {
+    outline-color: #ffbd07;
+}
+
+footer {
+    background-color:  #666666;
+    color: #fff;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 22px;
+    padding: 26px;    
+}
